@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css">
+  <!--<link rel="stylesheet" href="./assets/css/bootstrap-en.min.css">-->
+
+  <link rel="stylesheet" href="./assets/css/flaticon.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+  <link rel="stylesheet" href="./assets/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--<link rel="stylesheet" href="./assets/css/style-en.css">-->
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="bg-sidenavOpen"></div>
+
+  <div class="headerHeight"></div>
+
+  <div id="mySidenav" class="sidenav">
+    <!-- <img class="logo" src="./assets/images/logo.png" alt=""> -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <i class="fas fa-times"></i>
+    </a>
+    <ul class="side-nav-links list-unstyled">
+      <ul class="list-unstyled navList">
+        <li><a href="">
+            <img src="./assets/images/nav-icon-1.png" alt="">
+            <span class="parent"><span>الرئيسية</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-2.png" alt="">
+            <span class="parent"><span>المدونة</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-3.png" alt="">
+            <span class="parent"><span>تجارب المشتركين</span> </span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-4.png" alt="">
+            <span class="parent"><span>الباقات</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-5.png" alt="">
+            <span class="parent"><span>مكتبة التمارين</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-6.png" alt="">
+            <span class="parent"><span>للتواصل</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-7.png" alt="">
+            <span class="parent"><span>المتجر</span></span>
+          </a></li>
+        <li><a href="">
+            <img src="./assets/images/nav-icon-8.png" alt="">
+            <span class="parent"><span>دخول الاعضاء</span></span>
+          </a></li>
+      </ul>
+    </ul>
+  </div>
+
+  <!-- navabr -->
+  <div class="myNavbar">
+    <div class="container-fuid">
+      <div class="sideNavIcon">
+        <i class="fas fa-bars" onclick="openNav()"></i>
+      </div>
+      <div class="logo">
+        <img src="./assets/images/logo.png" alt="">
+      </div>
+      <div class="top-header">
+        <div class="circle-after">
+          <img src="./assets/images/social-after.png" alt="">
+        </div>
+        <div class="social">
+          <a href="" class="socialIcon socialCartIcon">
+            <img src="./assets/images/cart.png" alt="">
+            <span class="cartNumber">0</span>
+          </a>
+          <a href="" class="socialIcon"><img src="./assets/images/twitter.png" alt=""></a>
+          <a href="" class="socialIcon"><img src="./assets/images/snap.png" alt=""></a>
+          <a href="" class="socialIcon"><img src="./assets/images/insta.png" alt=""></a>
+        </div>
+      </div>
+      <div class="navList">
+        <ul class="list-unstyled">
+          <li><a href="">
+              <img src="./assets/images/nav-icon-1.png" alt="">
+              <span class="parent"><span>الرئيسية</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-2.png" alt="">
+              <span class="parent"><span>المدونة</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-3.png" alt="">
+              <span class="parent"><span>تجارب المشتركين</span> </span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-4.png" alt="">
+              <span class="parent"><span>الباقات</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-5.png" alt="">
+              <span class="parent"><span>مكتبة التمارين</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-6.png" alt="">
+              <span class="parent"><span>للتواصل</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-7.png" alt="">
+              <span class="parent"><span>المتجر</span></span>
+            </a></li>
+          <li><a href="">
+              <img src="./assets/images/nav-icon-8.png" alt="">
+              <span class="parent"><span>دخول الاعضاء</span></span>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main-content">
+    <div class="particaption-data">
+      <div class="container-fluid">
+        <form action="">
+          <div class="participation-form">
+            <div class="form-header">
+              <h5>بيانات المشترك</h5>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="form-group">
+                  <label for="">الاســــم الثلاثــــي:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">البريد الاكتــــروني:</label>
+                  <input type="email" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">رقـــــم الجــــــوال:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">الـــــــــــــــــــوزن:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">الـــــــــــطـــــول:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="cheackOptions">
+                  <div class="form-group mb-2">
+                    <label for="">الجنــــــــــــــس:</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">ذكر</span>
+                          <input type="radio" name="gender">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">أنثي</span>
+                          <input type="radio" name="gender">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="">الحالة الاجتماعية:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">نسبة الدهون والعضل:</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="cheackOptions stepsOption">
+                  <div class="form-group mb-2">
+                    <label for="">الهــــــــــــدف :</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">خسارة دهون</span>
+                          <input type="radio" name="musels">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">بناء عضلات</span>
+                          <input type="radio" name="musels">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">تحسين عادات</span>
+                          <input type="radio" name="musels">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">خسارة دهون وبناء عضل</span>
+                          <input type="radio" name="musels">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="">هل تعاني من مشاكل صحية أذكرها بالتفصيل؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="cheackOptions stepsOption">
+                  <div class="form-group mb-2">
+                    <label for="">آخر مرة أجريت تحليل دم</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">أقل من 6 أشهر</span>
+                          <input type="radio" name="blood">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">بين 12-6 أشهر</span>
+                          <input type="radio" name="blood">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">أكثر من 12 شهر</span>
+                          <input type="radio" name="blood">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="">هل تعاني من أي حساسية لأي طعام وما هي؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="form-group">
+                  <label for="">أذكر نظامك الغذائي السابق؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">هل لديك عادات سيئة تريد تغييرها؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">ما هي الأطعمة التي لا تريد إضافتها؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">هل تتناول مكملات غذائية؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">ما هو وقت استيقاظك ووقت نومك؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="cheackOptions stepsOption">
+                  <div class="form-group mb-2">
+                    <label for="">كم عدد خطواتك اليومية</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">أقل من 6000 آلاف</span>
+                          <input type="radio" name="dayStep">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">ما بين 10000 - 6000 آلاف</span>
+                          <input type="radio" name="dayStep">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">أكثر من 10000 وما فوق</span>
+                          <input type="radio" name="dayStep">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cheackOptions stepsOption">
+                  <div class="form-group mb-2">
+                    <label for="">أين تتدرب؟</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">المنزل</span>
+                          <input type="radio" name="whereexe">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">النادي</span>
+                          <input type="radio" name="whereexe">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="">إذا كان تدريبك في المنزل ما هي الأدوات المتوفرة لديك؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="cheackOptions stepsOption">
+                  <div class="form-group mb-2">
+                    <label for="">كم مرة تتدرب في الأسبوع</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">3 - 4 مرات</span>
+                          <input type="radio" name="weekexc">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">6 - 5 أيام</span>
+                          <input type="radio" name="weekexc">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                      <div class="form-group">
+                        <label class="container">
+                          <span class="word-label">7 أيام</span>
+                          <input type="radio" name="weekexc">
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="">اشرح جدولك الرياضي السابق والحجم التدريبي الذي تمارسة حالياً؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">هل لديك وقت محدد للتدريب؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">أعطني فكرة عن روتينك اليومي وما هي مهنتك العملية؟</label>
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-12">
+                <div class="approve">
+                  <label class="container">
+                    <span class="word-label">بالضغط على تأكيد الاشتراك, أنت توافق على <a href="">شروط
+                        الاشتراك</a></span>
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="imgOfdata">
+              <img src="./assets/images/image014.png" alt="">
+            </div>
+          </div>
+          <div class="btn-submit-parent">
+            <button class="btn-submit">اشترك الآن</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="copy">
+    <div class="container">
+      <h5>جميع الحقوق محفوظة <span> Somaya 2018</span></h5>
+    </div>
+  </div>
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/jquery-ui.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
